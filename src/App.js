@@ -2,6 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Appheader from './Components/Appheader';
+import Hero from './Components/Hero';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     <Appheader/>
     </header>
     <main>
-    
+    <Hero/>
     </main>
       
     </div>
