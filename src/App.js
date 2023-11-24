@@ -1,13 +1,17 @@
 
-// import './App.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Button from 'react-bootstrap/Button';
-
+import Appheader from './Components/Appheader';
 
 function App() {
   return (
     <div className="App">
-    <Button> submuit</Button>
+    <header id="header">
+    <Appheader/>
+    </header>
+    <main>
+    
+    </main>
       
     </div>
   );
