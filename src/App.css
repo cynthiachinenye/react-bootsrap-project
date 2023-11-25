@@ -591,9 +591,10 @@ textarea {
 .works-block .portfoliolist>div p {
   margin: 0;
   font-size: 12px;
+
 }
 
-.works-block .portfoliolist>div:hover .label {
+.works-block .portfoliolist>div:hover .label{
   bottom: 0;
 }
 
