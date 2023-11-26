@@ -8,6 +8,7 @@ import Services from './Components/Services';
 import Works from './Components/Works';
 import Teams from './Components/Teams';
 import Testimonial from './Components/Testimonial';
+import Pricing from './Components/Pricing';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Works/>
     <Teams/>
     <Testimonial/>
+    <Pricing/>
     </main>
       
     </div>
