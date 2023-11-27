@@ -31,7 +31,7 @@ const serviceData = [
     {
         id: 5,
         icon: "fas fa-trophy",
-        title: "Browe Compatibility",
+        title: "Browser Compatibility",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim enim vitae metus pellentesque, eu varius mauris condimentum. Vestibulum malesuada orci lectus, a blandit metus vehicula eu. Suspendisse potenti."
     },
     {
@@ -59,7 +59,7 @@ const Services = () => {
                                 <Col sm={4} className='holder'>
 
                                     <div className='icon'>
-                                       <i class={service.icon}></i>
+                                       <i className={service.icon}></i>
                                     </div>
                                     <h3>{service.title}</h3>
                                     <p>{service.description}</p>

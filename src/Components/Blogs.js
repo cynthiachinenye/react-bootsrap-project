@@ -10,7 +10,7 @@ const blogData = [
     image: require('../Assets/blog1.jpg'),
     time: '27 Nov 2016',
     title: 'Coffee Lovers',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend gravida lacus, et congue est pellentesque ultricies. Mauris semper auctor lacus, at laoreet ligula blandit sed. ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend gravida lacus, et congue est pellentesque ultricies. ",
     link: 'https://www.google.com'
   },
 
@@ -19,7 +19,7 @@ const blogData = [
     image: require('../Assets/blog2.jpg'),
     time: '27 Nov 2016',
     title: 'Tips for UI Design',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend gravida lacus, et congue est pellentesque ultricies. Mauris semper auctor lacus, at laoreet ligula blandit sed. ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend gravida lacus, et congue est pellentesque ultricies. ",
     link: 'https://www.facebook.com'
   },
   {
@@ -27,19 +27,20 @@ const blogData = [
     image: require('../Assets/blog3.jpg'),
     time: '27 Nov 2016',
     title: 'Beautiful Flower',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend gravida lacus, et congue est pellentesque ultricies. Mauris semper auctor lacus, at laoreet ligula blandit sed. ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend gravida lacus, et congue est pellentesque ultricies. ",
     link: 'https://www.linkdin.com'
   },
 ]
 
 const Blogs = () => {
   return (
-    <section id="blog" className='block  blog- block'>
+    <section id="blog" className='block  blog-block'>
+      
+      <Container fluid>
       <div className='title-holder'>
         <h2>Latest from blog</h2>
         <div className='subtitle'>get our latest blogs</div>
       </div>
-      <Container fliud>
         <Row>
           {
             blogData.map(blogs => {
@@ -54,7 +55,7 @@ const Blogs = () => {
                         <Card.Text>
                          {blogs.description}
                         </Card.Text>
-                        <a href={blogs.link} className='btn btn-primary'> Read More! <i class="fas fa-chevron-right"></i></a>
+                        <a href={blogs.link} className='btn btn-primary'> Read More! <i className="fas fa-chevron-right"></i></a>
                       </Card.Body>
                     </Card>
 

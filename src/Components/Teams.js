@@ -105,9 +105,9 @@ const Teams = () => {
                 <div className='overlay'>
                   <div className='socials'>
                     <ul>
-                      <li><a href={teams.fbLink}><i class='fab fa-facebook-f'></i></a></li>
-                      <li><a href={teams.twitterLink}><i class="fab fa-x-twitter"></i></a></li>
-                      <li><a href={teams.linkdinLink}><i class="fab fa-linkedin-in"></i></a></li>
+                      <li><a href={teams.fbLink}><i className='fab fa-facebook-f'></i></a></li>
+                      <li><a href={teams.twitterLink}><i className="fab fa-x-twitter"></i></a></li>
+                      <li><a href={teams.linkdinLink}><i className="fab fa-linkedin-in"></i></a></li>
   
                     </ul>
                   </div>

@@ -42,7 +42,7 @@ const Hero = () => {
                                 <Carousel.Caption>
                                     <h3>{e.title}</h3>
                                     <p>{e.description}</p>
-                                    <a href={e.link} className='btn btn-primary'>Learn More <i class="fas fa-chevron-right"></i></a>
+                                    <a href={e.link} className='btn btn-primary'>Learn More <i className="fas fa-chevron-right"></i></a>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         )

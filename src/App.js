@@ -11,6 +11,7 @@ import Testimonial from './Components/Testimonial';
 import Pricing from './Components/Pricing';
 import Blogs from './Components/Blogs';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
     <Blogs/>
     <Contact/>
     </main>
+    <footer id='footer'>
+    <Footer/>
+    </footer>
       
     </div>
   );
