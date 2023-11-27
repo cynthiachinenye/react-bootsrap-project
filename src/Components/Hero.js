@@ -36,7 +36,7 @@ const Hero = () => {
                 {
                     heroData.map((e) => {
                         return (
-                            <Carousel.Item>
+                            <Carousel.Item key={e.id}>
                                 <img className='d-block w-100' src={e.image} alt={"Slide"+ e.id} />
 
                                 <Carousel.Caption>

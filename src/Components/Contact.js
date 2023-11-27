@@ -42,7 +42,7 @@ const Contact = () => {
             </Container>
             <div className='google-map'>
                 <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507364.66123762773!2d2.954242938259636!3d6.548630043748697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1701076558707!5m2!1sen!2sng"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <Container fluid>
                 <div className='contact-info'>

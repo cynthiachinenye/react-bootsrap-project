@@ -56,7 +56,7 @@ const Services = () => {
                         serviceData.map((service) => {
                             return (
 
-                                <Col sm={4} className='holder'>
+                                <Col sm={4} className='holder' key={service.id}>
 
                                     <div className='icon'>
                                        <i className={service.icon}></i>
